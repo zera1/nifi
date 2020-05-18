@@ -1,5 +1,0 @@
-apiVersion: v1
-appVersion: "1.9"
-description: A Helm chart for Nifi
-name: nifi
-version: 1.0.0
