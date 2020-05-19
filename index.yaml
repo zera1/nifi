@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  nifi:
+  - apiVersion: v1
+    appVersion: "1.9"
+    created: "2020-05-19T11:11:15.1493662+02:00"
+    dependencies:
+    - condition: zookeeper.deploy.enabled
+      name: zookeeper
+      repository: file://./vendor/zookeeper
+      version: 1.0.0
+    description: A Helm chart for Nifi
+    digest: 8f2a820a3d3d1959eda869c1728a7e03e31733c08eed469c8a2de12636b8c2f3
+    name: nifi
+    urls:
+    - https://zera1.github.io/nifi/nifi-1.0.0.tgz
+    version: 1.0.0
+generated: "2020-05-19T11:11:15.1463666+02:00"
